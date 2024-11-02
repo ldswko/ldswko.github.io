@@ -5,7 +5,7 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 courses:
-- {name: 'Vector Calculus', url: 'vector-calculus'}
+- 'MATH0200: Multivariable Calculus (Physics/Engineering)'
 - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
