@@ -1,121 +1,85 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Photography — Lloyd Sangwoo Ko</title>
 
     <style>
-
         body {
-
             font-family: Arial, sans-serif;
-
             max-width: 900px;
-
             margin: 60px auto;
-
             padding: 0 20px;
-
             line-height: 1.3;
-
             color: #000;
-
         }
 
         h1 {
-
             font-size: 28px;
-
             margin-top: 0;
-
             margin-bottom: 10px;
-
         }
 
         p {
-
             margin-top: 0;
-
             margin-bottom: 10px;
-
         }
 
         a {
-
             color: #0000EE;
-
         }
 
         .back {
-
             margin-bottom: 25px;
-
         }
 
         .gallery {
-
             display: grid;
-
             grid-template-columns: repeat(3, 1fr);
-
-            gap: 10px;
-
+            gap: 20px 10px;
             margin-top: 25px;
-
         }
 
-        .gallery img {
+        .photo {
+            text-align: center;
+        }
 
+        .photo img {
             width: 100%;
-
             height: 220px;
-
             object-fit: cover;
-
             display: block;
+        }
 
+        .caption {
+            font-size: 13px;
+            font-style: italic;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 0;
         }
 
         @media (max-width: 700px) {
-
             .gallery {
-
                 grid-template-columns: repeat(2, 1fr);
-
             }
 
-            .gallery img {
-
+            .photo img {
                 height: 180px;
-
             }
-
         }
 
         @media (max-width: 450px) {
-
             .gallery {
-
                 grid-template-columns: 1fr;
-
             }
 
-            .gallery img {
-
+            .photo img {
                 height: auto;
-
             }
-
         }
-
     </style>
-
 </head>
 
 <body>
@@ -123,33 +87,46 @@
     <h1>Photography</h1>
 
     <p class="back">
-
         <a href="index.html">← Back to home</a>
-
     </p>
 
     <p>
-
-        A collection of photographs I've taken.
-
+        Photos I took here and there. 
     </p>
 
     <div class="gallery">
 
-        <img src="files/photography/photo1.jpg" alt="Photograph 1">
+        <div class="photo">
+            <img src="files/photography/photo1.jpg" alt="Photograph 1">
+            <p class="caption">Providence, Rhode Island</p>
+        </div>
 
-        <img src="files/photography/photo2.jpg" alt="Photograph 2">
+        <div class="photo">
+            <img src="files/photography/photo2.jpg" alt="Photograph 2">
+            <p class="caption">Seoul, South Korea</p>
+        </div>
 
-        <img src="files/photography/photo3.jpg" alt="Photograph 3">
+        <div class="photo">
+            <img src="files/photography/photo3.jpg" alt="Photograph 3">
+            <p class="caption">New York, New York</p>
+        </div>
 
-        <img src="files/photography/photo4.jpg" alt="Photograph 4">
+        <div class="photo">
+            <img src="files/photography/photo4.jpg" alt="Photograph 4">
+            <p class="caption">Boston, Massachusetts</p>
+        </div>
 
-        <img src="files/photography/photo5.jpg" alt="Photograph 5">
+        <div class="photo">
+            <img src="files/photography/photo5.jpg" alt="Photograph 5">
+            <p class="caption">Newport Beach, California</p>
+        </div>
 
-        <img src="files/photography/photo6.jpg" alt="Photograph 6">
+        <div class="photo">
+            <img src="files/photography/photo6.jpg" alt="Photograph 6">
+            <p class="caption">Washington, D.C.</p>
+        </div>
 
     </div>
 
 </body>
-
 </html>
